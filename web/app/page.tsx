@@ -1,3 +1,5 @@
+import { DigitalTwinChat } from "@/components/DigitalTwinChat";
+
 export default function Home() {
   const linkedInUrl = "https://www.linkedin.com/in/sonya-ling";
   const githubUrl = "https://github.com/threecuptea";
@@ -244,6 +246,8 @@ export default function Home() {
             </a>
           </div>
         </section>
+
+        <DigitalTwinChat />
 
         <footer className="pb-4 text-sm text-slate-400">
           Built with Next.js. Designed for a modern, executive-tech personal
