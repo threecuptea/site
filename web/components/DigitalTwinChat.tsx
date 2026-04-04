@@ -4,6 +4,7 @@ import { FormEvent, useMemo, useState } from "react";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 
+import { normalizeAssistantMarkdown } from "@/lib/chatTextUtils";
 import {
   DIGITAL_TWIN_SUGGESTED_QUESTIONS,
   type ChatMessage,
@@ -16,17 +17,6 @@ const INITIAL_ASSISTANT_MESSAGE: ChatMessage = {
   content:
     "Hi, I am Sonya's AI digital twin. Ask me about her career journey, engineering strengths, and technical leadership.",
 };
-
-function normalizeAssistantMarkdown(content: string): string {
-  // Convert inline HTML line breaks and collapse spacing artifacts.
-  const withLineBreaks = content.replace(/<br\s*\/?>/gi, "\n");
-
-  return withLineBreaks
-    .replace(/\t+/g, " ")
-    .split("\n")
-    .map((line) => line.replace(/[ ]{2,}/g, " ").trimEnd())
-    .join("\n");
-}
 
 export function DigitalTwinChat() {
   const [messages, setMessages] = useState<ChatMessage[]>([
