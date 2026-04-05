@@ -2,7 +2,9 @@
 
 This is my first AI coding project - digital-twin.  I used cursor implemented with GPT-5.3 Codex and reviewed by Anthropic Opus 4.6 and of course I reviewed it to my satisfaction.  The quality is pretty good. I think that I gradually gain some confidence on AI coding and consider AI as my assistant and extends my capability.  However, I and AI coding might be in Honeymoon period :. More to come. Let's see.
 
-Both 'tutorial.md' and 'review.md' are under /web sub-folder
+Both 'tutorial.md' and 'review.md' are under /web sub-folder. 
+
+When I have a chance, I will review Ed's Production Track course material to see if I can put together Vercel and deploy to  Vercel. 
 
 This is the history of my instructions for my own record too:
 
