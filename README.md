@@ -1,6 +1,11 @@
 ## Site - Digital-Twin
 
-This is my first AI coding project - digital-twin.  I used cursor implemented with GPT-5.3 Codex and reviewed by Anthropic Opus 4.6 and of course I reviewed it to my satisfaction.  The quality is pretty good. I think that I gradually gain some confidence on AI coding and consider AI as my assistant and extends my capability.  However, I and AI coding might be in Honeymoon period :. More to come. Let's see.
+This is my first AI coding project - digital-twin.  I used cursor implemented with GPT-5.3 Codex and reviewed by Anthropic Opus 4.6 and of course I reviewed it to my satisfaction.  It has sleek look and he quality is pretty good. I think that I gradually gain some confidence on AI coding and consider AI as my assistant and extends my capability.  However, I and AI coding might be in Honeymoon period :. More to come. Let's see.
+
+The followings are two screenshots.
+
+![Digital-twin Screenshot - Top](Screenshot-top.png)
+![Digital-twin Screenshot - Bottom](Screenshot-bottom.png)
 
 Both 'tutorial.md' and 'review.md' are under /web sub-folder.
 
