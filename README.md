@@ -22,7 +22,7 @@ That's great. Please now add the ability to have an AI chat with a "digital twin
 ```
 
 ```
-Look great!!  I see the problem.  Yes, Please render markdown in reponse and also add chat streaming. 
+Look great!!  I see the problem.  Yes, Please render markdown in response and also add chat streaming. 
 ```
 
 ```
